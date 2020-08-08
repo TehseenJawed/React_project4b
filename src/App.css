@@ -1,38 +1,176 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  width:  100%;
+  padding:0px;
+  margin: 0px;
+  box-shadow: 0px 6px 20px black;
+  background-color:rgb(0, 0, 0);
+  /* background-image: radial-gradient(circle, rgb(218, 17, 174), rgb(21, 23, 143)); */
+  height:55px;
+  /* position: fixed; */
+}
+.logos{
+  left: -55%;
+  top: -25px;
+  position: absolute;
+  height: 80px;
+}
+.Page1{
+  background-image: radial-gradient(circle, rgb(218, 17, 174), rgb(21, 23, 143));
+  width: 100%;
+}
+.main-head{
+   color: white;
+   font-size: 100px;
+   display: block;
+   margin-top: 15%;
+}
+.small-head{
+   color: white;
+   font-size: 60px;
+   display: block;
+   margin-top: -6%;
+   text-transform: capitalize;
+   letter-spacing: 22.5px;
+}
+.smallmessage{
+  color: white;
+  display: block;
+  font-size:24px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.head-button{
+  border-radius: 10px;
+  display: block;
+  width: 70%;
+  height:10%;
+  border: none;
+  margin-bottom: 20%;
+}
+.u-list{
+
+}
+.u-list li{
+  display: inline-block;
+  list-style-type: disc;
+  margin-left: 30px;
+  font-size: 18px;
+  
+}
+/* Sample Page  */
+.Heading1{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 5%
+}
+.Headback{
+  background-image: linear-gradient(-90deg, rgb(47, 49, 161), rgb(167, 11, 133));
+  padding: 0.3%;
+  box-shadow: 1px 3px 25px rgb(14, 15, 82);
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.Headback1{
+  background-color: rgb(49, 16, 80);
+  padding: 0.3%;
+  box-shadow: 1px 3px 25px black;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.Samples{
+  width: 89%;
+  margin-left: 11%;
+  margin-top: 8%;
+  align-items: center;
+}
+.sample1{
+  background-color: white;
+  display: inline-block;
+  margin-left: 2%;
+  /* height: 500px; */
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: 0.3s;
+  margin-bottom: 5%;
+  box-shadow: 0px 5px 35px black;
+}
+.sample1:hover{
+  box-shadow: 0px 8px 55px black;
+  transition: 0.5s;
+}
+.sample_image{
+  width: 100%;
+}
+.margin-lft{
+  margin-left: 16%;
+}
+/* Blog Page */
+.Blog-page{
+  width: 100%;
+  background-color: rgb(60, 27, 90);
+}
+.blog-grid{
+  width: 90%;
+  margin-top: 6%;
+  margin-left: 10%;
+  padding-bottom: 8%;
+}
+.subgrid{
+  display: inline-block;
+  margin-top: 1%;
+  width: 100%;
+  text-align: center;
+  /* margin-left: 5.5%; */
+  height: 300px;
+}
+.subtxt{
+  background-color: rgba(0, 0, 0, 0.726);
+  width: 90%;
+  position: absolute;
+  margin-top: 20%;
+  color: white;
+  margin-left: -45%;
+}
+.blog1{
+  background-image: url("./img/blog.jpg");
+  background-position: center;
+  margin-right: 1%;
+}
+.blog2{
+  background-image: url("./img/blog2.jpg");
+  background-position: center;
+  margin-left: 1%;
+}
+.blog3{
+  background-image: url("./img/blog3.jpg");
+  background-position: center;
+  margin-right: 1%;
+}
+.blog4{
+  background-image: url("./img/blog4.jpg");
+  background-position: center;
+  margin-left: 1%;
+}
+/* Footer Page Start */
+.Footer-page{
+  width: 100%;
+  background-color: rgb(95, 5, 131);
+  padding-top: 10%;
+}
+.Footer-head{
+  width: 100%;
+  font-size: 20px;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-end{
+  font-size: 15px;
+  padding-bottom: 7%;
 }
